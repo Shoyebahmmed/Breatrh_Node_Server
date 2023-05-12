@@ -5,6 +5,8 @@ import Nav_Bottom from './Nav_Bottom';
 import Header from './Header';
 import { useNavigation } from '@react-navigation/native';
 
+//new init
+
 export default function About({route}) {
    const { user_Name, Prof_Img, userID, serverIP } = route.params;
    const navigation = useNavigation();
